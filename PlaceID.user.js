@@ -197,6 +197,7 @@ if (window.top !== window.self) {
 
                             overlayDropdownWidgetSelector.addEventListener("change", () => {
                                 overlay_id = overlayDropdownWidgetSelector.value;
+                                overlay_versions = overlay_getVersions(overlay_id);
                                 overlay_versionIndex = 0;
                                 overlay_loadImage(overlay_image, overlay_id, overlay_versions[overlay_versionIndex]);
                             });
