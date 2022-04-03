@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         PlaceID Template
+// @name         PlaceID
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the canvas!
 // @author       xilla
 // @match        https://hot-potato.reddit.com/embed*
